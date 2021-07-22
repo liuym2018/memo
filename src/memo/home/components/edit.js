@@ -32,7 +32,7 @@ const Eidt = ({ add, submitStatus }) => {
     }
 
     return <div>
-        <h1>Memo</h1>
+        <h1 className="header">Memo</h1>
         <p>Event:</p>
         <input type="text" value={note} onChange={noteChange} />
         <p>Date:</p>
